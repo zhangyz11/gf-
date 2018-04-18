@@ -44,6 +44,7 @@ make install
 #安装c环境
 cd到gf文件目录下
 cabal install -fserver -fc-runtime
+#可以通过gf -crun或者gf -cshell进入gf的shell命令行
 
 #安装GF的java环境需要先安装java环境
 #https://www.cnblogs.com/a2211009/p/4265225.html
