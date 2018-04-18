@@ -41,6 +41,10 @@ make
 
 make install
 #安装完了之后如果发现安装的环境有问题可以使用cabal clean清除编译，并重新开始
+#安装c环境
+cd到gf文件目录下
+cabal install -fserver -fc-runtime
+
 #安装GF的java环境需要先安装java环境
 #https://www.cnblogs.com/a2211009/p/4265225.html
 #我是通过ppa(源) 方式安装oracle的jdk1.8.
